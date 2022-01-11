@@ -1,4 +1,7 @@
-- .tmux.conf
+- .tmux.conf 
+- locate tmux.conf to ~/.tmux.conf
+
+
 - .vimrc
 
 <!---
