@@ -1,5 +1,5 @@
-.tmux.conf
-.vimrc
+- .tmux.conf
+- .vimrc
 
 <!---
 jin-silver/jin-silver is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
