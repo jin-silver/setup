@@ -78,3 +78,6 @@ ZSH_THEME="jonathan"
 
 8. ls colors
 echo "export LS_COLORS='$(cat ~/jin-silver/ls_colors)'" >> ~/.zshrc
+
+
+install xclip
