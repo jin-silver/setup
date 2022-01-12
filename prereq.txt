@@ -18,7 +18,17 @@ DEFAULT SETTING
 	git wal script -> /usr/local/bin
 
 
+
 4. tmux
+	sudo apt install tmux
+	add this code into .zshrc
+	"""
+	if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+	  exec tmux
+	fi
+	"""
+
+	
 	
 5. tilda drop down terminal
 
