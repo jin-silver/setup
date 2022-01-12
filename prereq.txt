@@ -23,10 +23,11 @@ DEFAULT SETTING
 	)
 
 3. wal
-	git wal script -> /usr/local/bin
 	sudo apt install imagemagick
+	sudo apt install python3-pip
+	sudo pip3 install pywal
 	wal -nqi /path/to/pic << add this to .zshrc
-
+	(or "wal -nR" after setting)
 
 
 4. tmux
@@ -42,6 +43,8 @@ DEFAULT SETTING
 	
 5. tilda drop down terminal
 	sudo apt install tilda
+	# on start up application
+	/usr/bin/tilda -c zsh
 
 
 
@@ -63,7 +66,7 @@ make
 make install
 /opt/coreutils/bin/ls
 # .zshrc add
-alias ls="/opt/coreutils/bin/ls --group-directories -X" 
+alias ls="/opt/coreutils/bin/ls --color --group-directories-first -X" 
 
 
 7. zsh theme
