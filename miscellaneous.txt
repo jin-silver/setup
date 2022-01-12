@@ -1,0 +1,12 @@
+Speaker popping sounds
+
+1. echo 0 > /sys/module/snd_hda_intel/parameters/power_save
+	This will stop popping sound but it's temporary
+
+2. To make step 1 permanent,
+
+	echo N > /sys/module/snd_hda_intel/parameters/power_save_controller
+
+
+
+2. color ls - black backgrounds
