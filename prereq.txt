@@ -14,8 +14,18 @@ DEFAULT SETTING
 
 	theme later
 
+	#autosuggestion plugin#
+	git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+	# add "zsh-autosuggestions" to .zshrc plugins section
+	plugins = (
+		# other plugins..
+		zsh-autosuggestions
+	)
+
 3. wal
 	git wal script -> /usr/local/bin
+	sudo apt install imagemagick
+	wal -nqi /path/to/pic << add this to .zshrc
 
 
 
@@ -31,7 +41,31 @@ DEFAULT SETTING
 	
 	
 5. tilda drop down terminal
+	sudo apt install tilda
 
 
 
+6. icon ls
+sudo apt install clang
+sudo apt install autoconf
+sudo apt install autopoint
+sudo apt install bison
+sudo apt install gperf
+sudo apt install texinfo
 
+
+git 
+
+./bootstrap
+export CC=clang CXX=clang++
+./configure --prefix=/opt/coreutils
+make
+make install
+/opt/coreutils/bin/ls
+# .zshrc add
+alias ls="/opt/coreutils/bin/ls --group-directories -X" 
+
+
+7. zsh theme
+.zshrc 
+ZSH_THEME="jonathan"
