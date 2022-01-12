@@ -4,7 +4,7 @@ DEFAULT SETTING
 	tweak -> keyboard&mouse -> Additional Layout Options -> Ctrl pposition -> Caps Lcok as Ctrl
 
 2. zsh
-	
+
 	sudo apt install zsh
 
 	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -40,8 +40,8 @@ DEFAULT SETTING
 	fi
 	"""
 
-	
-	
+
+
 5. tilda drop down terminal
 	sudo apt install tilda
 	# on start up application
@@ -58,7 +58,7 @@ sudo apt install gperf
 sudo apt install texinfo
 
 
-git 
+git
 
 ./bootstrap
 export CC=clang CXX=clang++
@@ -67,14 +67,14 @@ make
 make install
 /opt/coreutils/bin/ls
 # .zshrc add
-alias ls="/opt/coreutils/bin/ls --color --group-directories-first -X" 
+alias ls="/opt/coreutils/bin/ls --color --group-directories-first -X"
 
 
 
 7. zsh theme
-.zshrc 
+.zshrc
 ZSH_THEME="jonathan"
 
 
 8. ls colors
-echo "export LS_COLORS='$(cat ~/jin-silver/ls_colors)' >> ~/.zshrc
+echo "export LS_COLORS='$(cat ~/jin-silver/ls_colors)'" >> ~/.zshrc
