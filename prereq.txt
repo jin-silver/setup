@@ -28,6 +28,7 @@ DEFAULT SETTING
 	sudo pip3 install pywal
 	wal -nqi /path/to/pic << add this to .zshrc
 	(or "wal -nR" after setting)
+	!color code file!
 
 
 4. tmux
@@ -69,6 +70,11 @@ make install
 alias ls="/opt/coreutils/bin/ls --color --group-directories-first -X" 
 
 
+
 7. zsh theme
 .zshrc 
 ZSH_THEME="jonathan"
+
+
+8. ls colors
+echo "export LS_COLORS='$(cat ~/jin-silver/ls_colors)' >> ~/.zshrc
