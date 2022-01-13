@@ -81,3 +81,9 @@ echo "export LS_COLORS='$(cat ~/jin-silver/ls_colors)'" >> ~/.zshrc
 
 
 install xclip
+
+
+9. vim plugins
+NERDTree
+git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
+
