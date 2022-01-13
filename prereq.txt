@@ -85,4 +85,5 @@ install xclip
 
 9. vim plugins
 command: NERDTree
-git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
+git clone https://github.com/preservim/nerdtree.git
+
