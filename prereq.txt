@@ -84,6 +84,16 @@ install xclip
 
 
 9. vim plugins
-command: NERDTree
+
+NERDTree
 git clone https://github.com/preservim/nerdtree.git
+
+softscroll
+git clone https://github.com/psliwka/vim-smoothie.git
+
+Airline 
+git clone https://github.com/vim-airline/vim-airline.git
+
+gruvbox theme (also goes into the same folder where plugins are)
+https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim
 

@@ -1,5 +1,6 @@
 
 " maybe set leader key?
+let mapleader = " " " space is the leader key now
 
 syntax on
 filetype on
@@ -22,3 +23,12 @@ set hlsearch
 inoremap jj <esc>
 nnoremap <CR> :noh<CR>
 
+
+" colorscheme
+set background=dark
+colo gruvbox
+
+" NERDTree shortcuts
+nnoremap <F3> :NERDTreeToggle<CR>
+" nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <leader>n <C-W>w
