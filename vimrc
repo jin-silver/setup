@@ -1,3 +1,6 @@
+
+" maybe set leader key?
+
 syntax on
 filetype on
 filetype plugin on
@@ -14,5 +17,8 @@ set wildmenu
 set nu
 set autoindent
 set smartindent
+set hlsearch
 
+inoremap jj <esc>
+nnoremap <CR> :noh<CR>
 
