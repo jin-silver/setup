@@ -14,7 +14,7 @@ set incsearch
 set ignorecase
 set smartcase
 set wildmenu
-
+set cursorline
 set nu
 set autoindent
 set smartindent
@@ -34,3 +34,38 @@ nnoremap <F3> :NERDTreeToggle<CR>
 nnoremap <leader>n <C-W>w
 nnoremap <leader>z :Goyo<CR>
 set relativenumber
+
+" rainbow bracket
+let g:rainbow_active = 1
+
+" syntax checker
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:syntastic_python_checkers=['flake8']
+
+
+map <F8> <ESC>:call SyntasticToggle()<CR>
+
+let g:syntastic_is_open = 0  
+function! SyntasticToggle()
+    if g:syntastic_is_open == 1
+        lclose
+        let g:syntastic_is_open = 0 
+    else
+        Errors
+        let g:syntastic_is_open = 1 
+    endif
+endfunction
+
+
+
+
+" airline
+"let g:airline_powerline_fonts=1
