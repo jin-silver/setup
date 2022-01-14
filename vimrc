@@ -32,3 +32,5 @@ colo gruvbox
 nnoremap <F3> :NERDTreeToggle<CR>
 " nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <leader>n <C-W>w
+nnoremap <leader>z :Goyo<CR>
+set relativenumber

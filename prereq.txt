@@ -95,5 +95,8 @@ Airline
 git clone https://github.com/vim-airline/vim-airline.git
 
 gruvbox theme (also goes into the same folder where plugins are)
-https://raw.githubusercontent.com/morhetz/gruvbox/master/colors/gruvbox.vim
+https://github.com/morhetz/gruvbox.git
 
+yogo
+
+10. ???
