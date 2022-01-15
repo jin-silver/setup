@@ -90,6 +90,8 @@ git clone https://github.com/preservim/nerdtree.git
 
 softscroll
 git clone https://github.com/psliwka/vim-smoothie.git
+or
+https://github.com/terryma/vim-smooth-scroll.git
 
 Airline 
 git clone https://github.com/vim-airline/vim-airline.git
@@ -102,5 +104,8 @@ https://github.com/junegunn/goyo.vim.git
 
 syntastic
 https://github.com/vim-syntastic/syntastic.git
+
+anyfold
+https://github.com/pseewald/vim-anyfold.git
 
 10. ???
