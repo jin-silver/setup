@@ -42,17 +42,20 @@ let g:rainbow_active = 1
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
+"
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
-
+let g:syntastic_mode_map = {'mode' : 'passive'}
+"
 let g:syntastic_python_checkers=['flake8']
-
-
-map <F8> <ESC>:call SyntasticToggle()<CR>
-
+"
+"
+map <F3> <ESC>:call SyntasticToggle()<CR>
+map <F2> <ESC>:SyntasticToggleMode<CR>
+map <F1> <ESC>:SyntasticCheck<CR>
+"
 let g:syntastic_is_open = 0  
 function! SyntasticToggle()
     if g:syntastic_is_open == 1
@@ -63,6 +66,9 @@ function! SyntasticToggle()
         let g:syntastic_is_open = 1 
     endif
 endfunction
+
+" nnoremap <F10> :SyntasticCheck<CR>:call SyntasticToggleMode<CR>:w<CR>
+
 
 
 " airline
