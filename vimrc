@@ -52,12 +52,11 @@ let g:syntastic_mode_map = {'mode' : 'passive'}
 let g:syntastic_python_checkers=['flake8']
 "
 "
-map <F3> <ESC>:call SyntasticToggle()<CR>
-map <F2> <ESC>:SyntasticToggleMode<CR>
-map <F1> <ESC>:SyntasticCheck<CR>
+map <F2> <ESC>:call SyntasticCheckToggle()<CR>
+map <F3> <ESC>:call SyntasticLocListToggle()<CR>
 "
 let g:syntastic_is_open = 0  
-function! SyntasticToggle()
+function! SyntasticLocListToggle()
     if g:syntastic_is_open == 1
         lclose
         let g:syntastic_is_open = 0 
@@ -66,6 +65,18 @@ function! SyntasticToggle()
         let g:syntastic_is_open = 1 
     endif
 endfunction
+
+let g:chck = 0
+function! SyntasticCheckToggle()
+    if g:chck == 0
+        SyntasticCheck
+        let g:chck = 1
+    else
+        SyntasticToggleMode
+        let g:chck = 0
+    endif
+endfunction
+
 
 " nnoremap <F10> :SyntasticCheck<CR>:call SyntasticToggleMode<CR>:w<CR>
 
