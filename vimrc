@@ -29,7 +29,7 @@ set background=dark
 colo gruvbox
 
 " NERDTree shortcuts
-nnoremap <F3> :NERDTreeToggle<CR>
+nnoremap <F10> :NERDTreeToggle<CR>
 " nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <leader>n <C-W>w
 nnoremap <leader>z :Goyo<CR>
