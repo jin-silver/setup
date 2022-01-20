@@ -146,6 +146,7 @@ DEFAULT SETTING
     fish_config 
    
     # themes
+    sudo apt install fonts-powerline
     omf install agnoster
     omf theme agnoster
 
