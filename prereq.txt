@@ -153,3 +153,5 @@ DEFAULT SETTING
     # .fishrcc
     ~/.config/fish/config.fish
 
+9. vimium-ff
+    firefox plugin
