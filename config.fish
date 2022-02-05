@@ -4,7 +4,7 @@ and not set -q TMUX
 end
 
 function fish_greeting
-    cat ~/.config/fish/moon
+    cat ~/.config/fish/groot
 end
 
 function fish_user_key_bindings
