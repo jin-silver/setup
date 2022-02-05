@@ -157,3 +157,8 @@ DEFAULT SETTING
 
 9. vimium-ff
     firefox plugin
+10. gnome-shell pixelsaver
+    sudo apt install gnome-shell-extension-pixelsaver
+    gnome-extensions enable pixel-saver@deadalnix.me
+    gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
+    
