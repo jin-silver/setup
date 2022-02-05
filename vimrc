@@ -22,7 +22,8 @@ set hlsearch
 
 inoremap jj <esc>
 nnoremap <CR> :noh<CR>
-
+" copy & paste
+noremap <Leader>y "+y
 
 " colorscheme
 set background=dark
