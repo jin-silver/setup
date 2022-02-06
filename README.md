@@ -1,10 +1,15 @@
 # Workspace setup
 
+
   * [Fish shell](#fish-shell)
   * [Tmux](#tmux)
   * [Tilda](#tilda)
   * [Vim](#vim)
   * [LS](#ls)
+  * [Wal](#wal)
+<!---
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+--->
 ## Fish shell
 ```
     1. install fish
