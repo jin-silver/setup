@@ -1,8 +1,0 @@
-
-3. fish shell? or shell text color
-
-
-4. fish shell ls colors
-
-
-5. copy to systemclip board
