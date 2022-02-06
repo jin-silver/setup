@@ -135,7 +135,7 @@
     # add to shell config file
     alias ls="/opt/coreutils/bin/ls --color --group-directories-first -X"
     
-    # ls colors 
+    ## ls colors 
     # source from
     # https://github.com/sharkdp/vivid
     
@@ -152,11 +152,22 @@
     zsh/bash example:
     export LS_COLORS=$(vivid generate /path/to/theme/iceberg-dark.yml)
     
-    wget https://raw.githubusercontent.com/jin-silver/setup/main/groot
-    mv groot ~/.config/fish
+    wget https://raw.githubusercontent.com/jin-silver/setup/main/banner
+    mv banner ~/.config/fish
     
 ```
+## Wal
+```
 
+  sudo apt install imagemagick
+  sudo apt install python3-pip
+  sudo pip3 install pywal
+  # add this line to shell config file (config.fish)
+  wal -nqi /path/to/pic 
+
+
+
+```
 
 
 
