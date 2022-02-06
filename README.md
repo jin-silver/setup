@@ -21,12 +21,12 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 ```
     
     
-change text color or import color file
+change text color 
 
-    # text configure
     fish_config 
     
-    # import color file from my setting
+***OR*** import color file from my setting
+
     wget https://raw.githubusercontent.com/jin-silver/setup/main/colors.fish
     chmod +x colors.fish
     ./colors.fish
@@ -40,16 +40,17 @@ change text color or import color file
 
 
  config file for fish shell
+ 
     ~/.config/fish/config.fish
 
 
 ## 2. Install Tmux
     
-```
-    1. Install tmux
+Installation
+
     sudo apt install tmux
     
-    2. Edit shell config file
+Edit shell config file 
     
       (zsh, bash, etc.)
     
@@ -65,18 +66,20 @@ change text color or import color file
        exec tmux
     end
    
-    3. Apply configuration file
+ Apply configuration file
+ 
     wget https://raw.githubusercontent.com/jin-silver/setup/main/tmux.conf
     mv tmux.conf ~/.tmux.conf
     tmux source .tmux.conf
-```
 
 ## Tilda
-```
-    sudo apt install tilda
 
-    Add to start-up application
+Installation
+
 ```
+sudo apt install tilda
+```
+and add to start up application
 ## Vim
 ```
     sudo apt install xclip
@@ -167,17 +170,16 @@ change text color or import color file
     
 ```
 ## Wal
-```
-
+Installation
+  ```
   sudo apt install imagemagick
   sudo apt install python3-pip
   sudo pip3 install pywal
-  # add this line to shell config file (config.fish)
-  wal -nqi /path/to/pic 
+  ```
+  
+add this line to shell config file (config.fish)
 
-
-
-```
+>wal -nqi /path/to/pic 
 
 
 
