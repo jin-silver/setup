@@ -1,11 +1,38 @@
 # Workspace setup
 
-  * [Tmux](#tmux)
   * [Fish shell](#fish-shell)
+  * [Tmux](#tmux)
   * [Tilda](#tilda)
   * [Vim](#vim)
   * [LS](#ls)
+## Fish shell
+```
+    1. install fish
+    sudo apt install fish
+    chsh -s $(which fish) # and relogin
+    
+    2. install oh my fish
+    curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
+    3. change text color or import color file
+    # text configure
+    fish_config 
+    
+    # import color file from my setting
+    wget https://raw.githubusercontent.com/jin-silver/setup/main/colors.fish
+    chmod +x colors.fish
+    ./colors.fish
+    
+   
+    4. themes
+    sudo apt install fonts-powerline
+    omf install agnoster
+    omf theme agnoster
+
+
+    # .fishrcc
+    ~/.config/fish/config.fish
+```
 
 ## Tmux
 ```
@@ -27,73 +54,66 @@
     and not set -q TMUX
        exec tmux
     end
-
-    
-```
-## Fish shell
-```
-    1. install fish
-    sudo apt install fish
-    chsh -s $(which fish) # and relogin
-    
-    2. install oh my fish
-    curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
-
-    3. change text color
-    fish_config 
    
-    4. themes
-    sudo apt install fonts-powerline
-    omf install agnoster
-    omf theme agnoster
-
-
-    # .fishrcc
-    ~/.config/fish/config.fish
+    3. Apply configuration file
+    wget https://raw.githubusercontent.com/jin-silver/setup/main/tmux.conf
+    mv tmux.conf ~/.tmux.conf
+    tmux source .tmux.conf
 ```
+
 ## Tilda
 ```
     sudo apt install tilda
 
-    Add to start up program
+    Add to start-up application
 ```
 ## Vim
 ```
     sudo apt install xclip
-    sudo apt install gvim # << for "+y clipboard copy
+    sudo apt install vim-gtk3 # << for "+y clipboard copy
     # put those plugins in ~/.vim/pack/{whatevername}/start
     
     NERDTree
     git clone https://github.com/preservim/nerdtree.git
 
     softscroll
-    https://github.com/terryma/vim-smooth-scroll.git
+    git clone https://github.com/terryma/vim-smooth-scroll.git
 
     Airline 
     git clone https://github.com/vim-airline/vim-airline.git
 
     gruvbox theme (also goes into the same folder where plugins are)
-    https://github.com/morhetz/gruvbox.git
+    git clone https://github.com/morhetz/gruvbox.git
 
     goyo
-    https://github.com/junegunn/goyo.vim.git
+    git clone https://github.com/junegunn/goyo.vim.git
 
     syntastic
-    https://github.com/vim-syntastic/syntastic.git
+    git clone https://github.com/vim-syntastic/syntastic.git
 
     anyfold
-    https://github.com/pseewald/vim-anyfold.git
+    git clone https://github.com/pseewald/vim-anyfold.git
 
     rainbow paranthesis
-    https://github.com/frazrepo/vim-rainbow.git
+    git clone https://github.com/frazrepo/vim-rainbow.git
+    
+    # apply .vimrc file
+    wget https://raw.githubusercontent.com/jin-silver/setup/main/vimrc
+    mv vimrc ~/.vimrc
 
 ```
 ## LS
 ```
     # ICONS
     # source from 
+    # https://github.com/sebastiencs/icons-in-terminal
+    git clone https://github.com/sebastiencs/icons-in-terminal
+    cd icons-in-tmerinal
+    ./install.sh
+    
     # https://github.com/sebastiencs/ls-icons
     
+    git clone https://github.com/sebastiencs/ls-icons.git
     sudo apt install clang
     sudo apt install autoconf
     sudo apt install autopoint
@@ -102,7 +122,7 @@
     sudo apt install texinfo
 
 
-    git clone https://github.com/sebastiencs/ls-icons.git
+    
 
     ./bootstrap
     export CC=clang CXX=clang++
@@ -131,7 +151,10 @@
 
     zsh/bash example:
     export LS_COLORS=$(vivid generate /path/to/theme/iceberg-dark.yml)
-
+    
+    wget https://raw.githubusercontent.com/jin-silver/setup/main/groot
+    mv groot ~/.config/fish
+    
 ```
 
 
