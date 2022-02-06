@@ -1,8 +1,15 @@
-- .tmux.conf 
-- locate tmux.conf to ~/.tmux.conf
+# Workspace setup
+- Tmux
+- Fish shell
+- Tilda
+- Vim
+- Ls
 
 
-- .vimrc
+
+
+
+
 
 <!---
 jin-silver/jin-silver is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
