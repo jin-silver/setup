@@ -1,0 +1,35 @@
+1. keyboard shortcut
+	terminal | ctrl-q
+	firefox | ctrl-i
+	move to workspace above | ctrl-Alt-k
+	move to workspace below | ctrl-Alt-j
+
+
+2. tilda settings
+	Appearance - 
+		height 40
+		Enable transparency - 30
+	keybindings
+		pull down terminal - f12
+		quit - f12
+
+3. terminal look
+	terminal preferences - profile - scrolling - uncheck "show scrollbar"
+	sudo apt install gnome-shell-extension-pixelsaver
+    gnome-extensions enable pixel-saver@deadalnix.me
+    gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
+
+
+    shift right click can toggle options in tmux
+
+4. remove dock
+
+gnome-extensions disable ubuntu-dock@ubuntu.com
+
+5. remove top bar
+   https://extensions.gnome.org/ 
+   search hide top bar by tuxor1337
+   install firefox extension and activate
+
+6. GTK3 Sweet Theme
+https://www.gnome-look.org/p/1253385/
