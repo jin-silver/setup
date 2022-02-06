@@ -33,3 +33,11 @@ gnome-extensions disable ubuntu-dock@ubuntu.com
 
 6. GTK3 Sweet Theme
 https://www.gnome-look.org/p/1253385/
+
+
+
+  (zsh, bash, etc.)
+
+  if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+        exec tmux
+        fi
