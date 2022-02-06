@@ -10,16 +10,19 @@
 <!---
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 --->
-## Fish shell
-```
-    1. install fish
-    sudo apt install fish
-    chsh -s $(which fish) # and relogin
-    
-    2. install oh my fish
-    curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+## 1. Install Fish shell
+ 
+installation
 
-    3. change text color or import color file
+```
+sudo apt install fish
+chsh -s $(which fish) 
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
+    
+    
+change text color or import color file
+
     # text configure
     fish_config 
     
@@ -29,17 +32,19 @@
     ./colors.fish
     
    
-    4. themes
+ themes
+ 
     sudo apt install fonts-powerline
     omf install agnoster
     omf theme agnoster
 
 
-    # .fishrcc
+ config file for fish shell
     ~/.config/fish/config.fish
-```
 
-## Tmux
+
+## 2. Install Tmux
+    
 ```
     1. Install tmux
     sudo apt install tmux
