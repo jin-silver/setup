@@ -1,12 +1,11 @@
 # Workspace setup
-- [Workspace setup](#workspace-setup)
+
   * [Tmux](#tmux)
   * [Fish shell](#fish-shell)
   * [Tilda](#tilda)
   * [Vim](#vim)
   * [LS](#ls)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Tmux
 ```
