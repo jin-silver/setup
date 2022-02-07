@@ -172,8 +172,9 @@ sudo dpkg -i vivid_0.7.0_amd64.deb
 
  Edit config.fish
 
- Download https://raw.githubusercontent.com/sharkdp/vivid/master/themes/iceberg-dark.yml    
+
 ```bash
+# Download https://raw.githubusercontent.com/sharkdp/vivid/master/themes/iceberg-dark.yml  
 export LS_COLORS=(vivid generate /path/to/theme/iceberg-dark.yml)    
 ```
 
@@ -182,6 +183,7 @@ export LS_COLORS=(vivid generate /path/to/theme/iceberg-dark.yml)
 ## 6. Wal
 
 **Installation**
+
   ```bash
   sudo apt install imagemagick
   sudo apt install python3-pip
