@@ -11,7 +11,7 @@
 
 ## 1. Fish shell
 
-Installation
+**Installation**
 
 ```
 sudo apt install fish
@@ -19,8 +19,7 @@ chsh -s $(which fish)
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 ```
 
-
-Change text color 
+**Change text color** 
 
     fish_config 
 
@@ -31,7 +30,7 @@ Change text color
     ./colors.fish
 
 
- Themes
+ **Themes**
 
 ```bash
 sudo apt install fonts-powerline
@@ -40,7 +39,7 @@ omf theme agnoster
 ```
 
 
- Config file for fish shell
+ Config file location
 
 ```bash
 ~/.config/fish/config.fish
@@ -50,7 +49,7 @@ omf theme agnoster
 
 ## 2. Tmux
 
-Installation
+**Installation**
 
 ```bash
 sudo apt install tmux
