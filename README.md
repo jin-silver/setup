@@ -1,15 +1,15 @@
 # Workspace setup
 
 
-  * [Fish shell](#fish-shell)
-  * [Tmux](#tmux)
-  * [Tilda](#tilda)
-  * [Vim](#vim)
-  * [LS](#ls)
-  * [Wal](#wal)
-<!---
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
---->
+  * [1. Install Fish shell](#1-install-fish-shell)
+  * [2. Install Tmux](#2-install-tmux)
+  * [3. Tilda](#3-tilda)
+  * [4. Vim](#4-vim)
+  * [5. LS](#5-ls)
+  * [6. Wal](#6-wal)
+
+
+
 ## 1. Install Fish shell
  
 installation
@@ -56,7 +56,7 @@ Apply configuration file
     mv tmux.conf ~/.tmux.conf
     tmux source .tmux.conf
 
-## Tilda
+## 3. Tilda
 
 Installation
 
@@ -64,7 +64,7 @@ Installation
 sudo apt install tilda
 ```
 and add to start up application
-## Vim
+## 4. Vim
 ```
     sudo apt install xclip
     sudo apt install vim-gtk3 # << for "+y clipboard copy
@@ -99,7 +99,7 @@ and add to start up application
     mv vimrc ~/.vimrc
 
 ```
-## LS
+## 5. LS
 
   Install icons-in-terminal
   
@@ -155,7 +155,7 @@ set banner
     mv banner ~/.config/fish
     
     
-## Wal
+## 6. Wal
 Installation
   ```
   sudo apt install imagemagick
