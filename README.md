@@ -55,7 +55,7 @@ omf theme agnoster
 sudo apt install tmux
 ```
 
-Apply configuration file
+**Apply** configuration file
 
 ```bash
 wget https://raw.githubusercontent.com/jin-silver/setup/main/tmux.conf
@@ -67,7 +67,7 @@ tmux source .tmux.conf
 
 ## 3. Tilda
 
-Installation
+**Installation**
 
 ```bash
 sudo apt install tilda
@@ -78,13 +78,15 @@ and add to start up application
 
 ## 4. Vim
 
-Installation
+**Installation**
+
 ```bash
 sudo apt install xclip
 sudo apt install vim-gtk3
 ```
 
-Plug-in List (clone to ~/.vim/pack/{whatevername}/start)
+**Plug-in List** (clone to ~/.vim/pack/{whatevername}/start)
+
 ```bash
 # NERDTree
 git clone https://github.com/preservim/nerdtree.git
@@ -111,7 +113,7 @@ git clone https://github.com/pseewald/vim-anyfold.git
 git clone https://github.com/frazrepo/vim-rainbow.git
 ```
 
-Apply .vimrc file
+**Apply** .vimrc file
 
 ```bash
 wget https://raw.githubusercontent.com/jin-silver/setup/main/vimrc
@@ -122,7 +124,7 @@ mv vimrc ~/.vimrc
 
 ## 5. LS
 
-### 5-1. Install icons-in-terminal
+### Install icons-in-terminal
 
 Source: https://github.com/sebastiencs/icons-in-terminal
 
@@ -134,7 +136,7 @@ cd icons-in-tmerinal
 
 
 
-### 5-2. Install ls-icons
+### Install ls-icons
 
 Source: https://github.com/sebastiencs/ls-icons
 
@@ -159,7 +161,7 @@ alias ls="/opt/coreutils/bin/ls --color --group-directories-first -X"
  
 
 
-### 5-3. Install vivid for ls colors 
+### Install vivid for ls colors 
 
 Source: https://github.com/sharkdp/vivid    
 
@@ -179,7 +181,7 @@ export LS_COLORS=(vivid generate /path/to/theme/iceberg-dark.yml)
 
 ## 6. Wal
 
-Installation
+**Installation**
   ```bash
   sudo apt install imagemagick
   sudo apt install python3-pip
