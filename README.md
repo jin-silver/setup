@@ -47,6 +47,7 @@ omf theme agnoster
 ```
 
 
+
 ## 2. Tmux
 
 Installation
@@ -63,6 +64,8 @@ mv tmux.conf ~/.tmux.conf
 tmux source .tmux.conf
 ```
 
+
+
 ## 3. Tilda
 
 Installation
@@ -71,6 +74,9 @@ Installation
 sudo apt install tilda
 ```
 and add to start up application
+
+
+
 ## 4. Vim
 
 Installation
@@ -112,6 +118,8 @@ Apply .vimrc file
 wget https://raw.githubusercontent.com/jin-silver/setup/main/vimrc
 mv vimrc ~/.vimrc
 ```
+
+
 
 ## 5. LS
 
@@ -165,20 +173,15 @@ sudo dpkg -i vivid_0.7.0_amd64.deb
 
  Download https://raw.githubusercontent.com/sharkdp/vivid/master/themes/iceberg-dark.yml    
 ```bash
-export LS_COLORS=(vivid generate /path/to/theme/iceberg-dark.yml)
+export LS_COLORS=(vivid generate /path/to/theme/iceberg-dark.yml)    
 ```
 
 
-set banner
 
-    wget https://raw.githubusercontent.com/jin-silver/setup/main/banner
-    mv banner ~/.config/fish
-
-
-​    
 ## 6. Wal
+
 Installation
-  ```
+  ```bash
   sudo apt install imagemagick
   sudo apt install python3-pip
   sudo pip3 install pywal
@@ -186,7 +189,7 @@ Installation
 
 Add this line to shell config file (config.fish)
 
-```
+```bash
 wal -nqi /path/to/pic 
 ```
 
